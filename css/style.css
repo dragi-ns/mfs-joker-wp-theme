@@ -584,8 +584,11 @@ img {
 }
 
 #reservation .bookly-form * {
-  color: #ecf0f1 !important;
   font-size: inherit !important;
+}
+
+#reservation .bookly-form *:not(.link) {
+  color: #ecf0f1 !important;
 }
 
 #reservation .bookly-form .picker__nav--next,
@@ -665,31 +668,34 @@ img {
   border-top-color: #424546 !important;
 }
 
-#reservation .staff-details {
+#reservation .staff-item {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
+  margin-top: 1rem;
 }
 
-#reservation .staff-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
-
-#reservation .staff-name {
-  font-size: 1.75rem !important;
-  font-weight: bold;
-}
-
-#reservation .staff-phone {
-  font-size: 1rem;
-}
-
-#reservation .staff-details img {
+#reservation .staff-img img {
   max-width: 150px;
   border-radius: 0.5rem;
   box-shadow: 0px 1px 4px rgba(28, 28, 28, 1);
+}
+
+#reservation .staff-details {
+  margin-left: 0.75rem;
+}
+
+#reservation .staff-details .name {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+#reservation .staff-details .phone {
+  font-size: 1.15rem !important;
+  display: block;
+  margin-bottom: 0.75rem;
 }
 
 #reservation .bookly-btn {
@@ -760,6 +766,18 @@ img {
 
   #reservation .picker__holder {
     max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #reservation .staff-item {
+    flex-direction: column;
+  }
+
+  #reservation .staff-details {
+    margin-left: 0;
+    margin-top: 0.75rem;
+    text-align: center;
   }
 }
 
