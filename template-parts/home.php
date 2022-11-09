@@ -24,7 +24,8 @@
             </div>
             <div class="hero-right">
                 <figure>
-                    <img src="<?php echo get_theme_file_uri('/images/hero-right-bg.jpg'); ?>" alt="todo" />
+                    <img src="<?php echo get_theme_file_uri('/images/hero-right-bg.jpg'); ?>"
+                        alt="inside of hairstyle studio" />
                 </figure>
             </div>
         </div>
