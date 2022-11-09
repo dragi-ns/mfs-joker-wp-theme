@@ -1,0 +1,30 @@
+{
+  "name": "mfs-joker-theme",
+  "version": "1.0.0",
+  "description": "Tema za muški frizerski salon The Joker",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ]
+  },
+  "author": "dragi-ns",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "*",
+    "macy": "^2.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}

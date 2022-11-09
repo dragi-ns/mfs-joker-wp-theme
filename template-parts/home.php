@@ -1,0 +1,34 @@
+<section id="home">
+    <div class="container">
+        <div class="hero">
+            <div class="hero-left">
+                <p class="subtitle">Muški frizerski salon</p>
+                <h1 class="title">The <span class="mark">Joker</span></h1>
+                <p class="description">
+                    Muški frizerski salon
+                    <span>The <span class="mark">Joker</span></span> vrši uslugu
+                    muškog šišanja, pranja kose i skraćivanja brade. Poželjno
+                    zakazivanje.
+                </p>
+                <a class="cta btn btn--primary" href="#reservation">
+                    <span class="icon"><i class="fa-regular fa-calendar-check"></i></span>
+                    <span>ZAKAŽITE TERMIN</span>
+                </a>
+                <div class="scroll-indicator">
+                    <a href="#gallery">
+                        <span class="icon">
+                            <i class="fa-regular fa-circle-down"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <figure>
+                    <img src="<?php echo get_theme_file_uri('/images/hero-right-bg.jpg'); ?>" alt="todo" />
+                </figure>
+            </div>
+        </div>
+        <!-- ./hero -->
+    </div>
+    <!-- ./container -->
+</section>
