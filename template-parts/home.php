@@ -10,10 +10,17 @@
                     muškog šišanja, pranja kose i skraćivanja brade. Poželjno
                     zakazivanje.
                 </p>
-                <a class="cta btn btn--primary" href="#reservation">
-                    <span class="icon"><i class="fa-regular fa-calendar-check"></i></span>
-                    <span>ZAKAŽITE TERMIN</span>
-                </a>
+                <div class="buttons">
+                    <a class="cta btn btn--primary" href="#reservation">
+                        <span class="icon"><i class="fa-regular fa-calendar-check"></i></span>
+                        <span>ZAKAŽITE TERMIN</span>
+                    </a>
+                    <a class="insta btn btn--secondary" target="_blank" href="https://www.instagram.com/mfs_thejoker/">
+                        <span class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </a>
+                </div>
                 <div class="scroll-indicator">
                     <a href="#gallery">
                         <span class="icon">
