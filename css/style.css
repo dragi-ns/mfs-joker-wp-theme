@@ -44,23 +44,18 @@ body {
   text-align: center;
 }
 
-body.error404 {
+body:not(.home) {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-body.error404 #nav .active::after {
+body:not(.home) #nav .active::after {
   display: none;
 }
 
-body.error404 main {
+body:not(.home) main {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 1rem;
 }
 
 a {
@@ -161,6 +156,10 @@ img {
 .btn--secondary:hover {
   background-color: #c0392b;
   color: #ecf0f1;
+}
+
+.mb {
+  margin-bottom: 0.5rem;
 }
 
 .mark {
@@ -942,7 +941,9 @@ img {
 }
 
 @media only screen and (min-width: 992px) {
-  section:not(#home, #contact) {
+  #gallery,
+  #reviews,
+  #reservation {
     min-height: 100vh;
   }
 
