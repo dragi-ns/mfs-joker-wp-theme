@@ -129,9 +129,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (day === 6) {
     msg = 'zatvoreno';
   } else if (day === 5) {
-    msg = 9 <= hours && 14 > hours ? 'otvoreno' : 'zatvoreno';
+    msg = 8 <= hours && 18 > hours ? 'otvoreno' : 'zatvoreno';
   } else {
-    msg = 9 <= hours && 17 > hours ? 'otvoreno' : 'zatvoreno';
+    msg = 8 <= hours && 22 > hours ? 'otvoreno' : 'zatvoreno';
   }
   businessStatus.textContent = msg;
 });

@@ -15,17 +15,8 @@
                             <i class="fa-solid fa-phone fa-fw"></i>
                         </span>
                         <span>
-                            Bojan (Joker) =>
-                            <a class="link" href="tel:0600626992">0600626992</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="icon">
-                            <i class="fa-solid fa-phone fa-fw"></i>
-                        </span>
-                        <span>
-                            Aleksandar (Mitke) =>
-                            <a class="link" href="tel:0621564504">0621564504</a>
+                            Salon =>
+                            <a class="link" href="tel:0629280250">0629280250</a>
                         </span>
                     </li>
                     <li class="working-hours-container">
@@ -34,12 +25,12 @@
                         </span>
                         <span>Trenutno je <span class="business-status">otvoreno</span>.</span>
                         <ul class="working-hours">
-                            <li><span>Ponedeljak</span><span>09:00 - 17:00</span></li>
-                            <li><span>Utorak</span><span>09:00 - 17:00</span></li>
-                            <li><span>Sreda</span><span>09:00 - 17:00</span></li>
-                            <li><span>Četvrtak</span><span>09:00 - 17:00</span></li>
-                            <li><span>Petak</span><span>09:00 - 17:00</span></li>
-                            <li><span>Subota</span><span>09:00 - 14:00</span></li>
+                            <li><span>Ponedeljak</span><span>08:00 - 22:00</span></li>
+                            <li><span>Utorak</span><span>08:00 - 22:00</span></li>
+                            <li><span>Sreda</span><span>08:00 - 22:00</span></li>
+                            <li><span>Četvrtak</span><span>08:00 - 22:00</span></li>
+                            <li><span>Petak</span><span>08:00 - 22:00</span></li>
+                            <li><span>Subota</span><span>08:00 - 18:00</span></li>
                             <li><span>Nedelja</span><span>Zatvoreno</span></li>
                         </ul>
                     </li>
